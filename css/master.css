@@ -1,0 +1,119 @@
+
+body {
+  color: #aaaaaa;
+  background-color: #131313;
+  /* background-color: gray; */
+  overflow-x: hidden;
+  width: 100vw;
+  height: 95vh;
+
+  font-family: 'Copperplate Gothic', serif;
+  font-style: bold;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+}
+
+.collapsed {
+  background-image: url("../imgs/7.jpg");
+  background-repeat: repeat;
+}
+
+p {
+  min-width: 15%;
+}
+
+div {
+  /* border: 2px solid #131313; */
+  height: 70%;
+}
+
+#mainContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: flex-start; */
+}
+
+#header {
+  background-color: #262626;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+}
+
+#photoMain {
+  /* background-color: #265226; */
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bigIMG {
+  object-fit: cover;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.bigIMG:hover {
+  border: 2px solid #aaaaaa;
+}
+
+.bigIMG:focus {
+  outline: none;
+  border-color: #13aa13;
+}
+
+#photoRandom {
+  /* background-color: #262652; */
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.randIMG {
+  object-fit: cover;
+  max-width: 90%;
+  max-width: 90%
+}
+
+#footer {
+  /* background-color: #262626; */
+  height: 10%;
+  width: 100%;
+  align-self: center;
+}
+
+#photoGrid {
+  /* background-color: #522626; */
+  width: 33%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 33% 33%;
+  grid-gap: 3%;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.dummyIMG {
+  /* background-color: #aa1313; */
+  border: 2px solid #131313;
+  border-radius: 25px;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.dummyIMG:hover {
+  border-color: #aa1313;
+}
+
+.dummyIMG:focus {
+  border-color: #13aa13;
+  outline: none;
+}
