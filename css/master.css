@@ -45,6 +45,7 @@ div {
   text-align: center;
 }
 
+
 #photoMain {
   /* background-color: #265226; */
   width: 33%;
@@ -73,7 +74,7 @@ div {
   width: 33%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: justify;
 }
 
 .randIMG {
@@ -83,10 +84,40 @@ div {
 }
 
 #footer {
-  /* background-color: #262626; */
+  background-color: #262626;
   height: 10%;
   width: 100%;
-  align-self: center;
+  /* align-self: center; */
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: space-around; */
+}
+
+div.inFooter {
+  min-width: 33%;
+  align-self: flex-start;
+  text-align: center;
+}
+
+p.apoName {
+  padding-left: 1%;
+  text-align: left;
+  min-width: 30%;
+}
+
+p.courseName {
+  min-width: 30%;
+  text-align: right;
+  padding-left: 5%;
+}
+
+p.proyTitle {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+p.proyDate {
+  font-size: 69%;
 }
 
 #photoGrid {
