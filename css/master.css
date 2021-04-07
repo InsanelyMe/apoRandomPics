@@ -1,13 +1,11 @@
-
 body {
   color: #aaaaaa;
   background-color: #131313;
-  /* background-color: gray; */
   overflow-x: hidden;
   width: 100vw;
   height: 95vh;
 
-  font-family: 'Copperplate Gothic', serif;
+  font-family: 'Copperplate Gothic', sans-serif;
   font-style: bold;
   font-size: 18px;
   letter-spacing: 0.2em;
@@ -23,7 +21,6 @@ p {
 }
 
 div {
-  /* border: 2px solid #131313; */
   height: 70%;
 }
 
@@ -32,7 +29,6 @@ div {
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  /* align-items: flex-start; */
 }
 
 #header {
@@ -47,7 +43,6 @@ div {
 
 
 #photoMain {
-  /* background-color: #265226; */
   width: 33%;
   display: flex;
   align-items: center;
@@ -58,6 +53,7 @@ div {
   object-fit: cover;
   max-width: 90%;
   max-height: 90%;
+  cursor: pointer;
 }
 
 .bigIMG:hover {
@@ -70,7 +66,6 @@ div {
 }
 
 #photoRandom {
-  /* background-color: #262652; */
   width: 33%;
   display: flex;
   align-items: center;
@@ -80,17 +75,16 @@ div {
 .randIMG {
   object-fit: cover;
   max-width: 90%;
-  max-width: 90%
+  max-width: 90%;
+  cursor: pointer;
 }
 
 #footer {
   background-color: #262626;
   height: 10%;
   width: 100%;
-  /* align-self: center; */
   display: flex;
   align-items: flex-end;
-  /* justify-content: space-around; */
 }
 
 div.inFooter {
@@ -99,16 +93,27 @@ div.inFooter {
   text-align: center;
 }
 
+div.inFooterLeft {
+  min-width: 33%;
+  align-self: center;
+}
+
 p.apoName {
   padding-left: 1%;
   text-align: left;
   min-width: 30%;
 }
 
+p.author {
+  padding-left: 1%;
+  text-align: left;
+  font-size: 69%;
+}
+
 p.courseName {
   min-width: 30%;
   text-align: right;
-  padding-left: 5%;
+  padding-left: 3%;
 }
 
 p.proyTitle {
@@ -121,7 +126,6 @@ p.proyDate {
 }
 
 #photoGrid {
-  /* background-color: #522626; */
   width: 33%;
   display: grid;
   grid-template-columns: 30% 30% 30%;
@@ -132,12 +136,12 @@ p.proyDate {
 }
 
 .dummyIMG {
-  /* background-color: #aa1313; */
   border: 2px solid #131313;
   border-radius: 25px;
   object-fit: cover;
   max-width: 100%;
   max-height: 100%;
+  cursor: pointer;
 }
 
 .dummyIMG:hover {
