@@ -23,6 +23,7 @@ function showRandom(){
       collapseReality();
     }
   }
+  setTimeout(collapseReality, 30000);
 }
 
 function showBig(){
